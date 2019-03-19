@@ -1,9 +1,11 @@
 package main
 
 import (
-  "fmt"
+  "github.com/fatih/color"
+  "rsc.io/quote"
 )
 
 func main() {
-  fmt.Println("TESTING")
+  color.Cyan("Testing Go Modules")
+  color.Cyan(quote.Hello())
 }
